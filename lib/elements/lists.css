@@ -1,0 +1,69 @@
+.old ul {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+
+.old ul li {
+	float: left;
+	list-style: none;
+}
+.old ul li a:before {
+	border-left: 1px solid rgba(255,255,255,.1);	
+	content: "";
+	padding: 10px 35px;
+	margin: 0 -35px;
+	position: relative;
+}
+
+.old ul li a:after {
+	border-right: 1px solid rgba(255,255,255,.1);	
+	content: "";
+	padding: 10px 35px;
+	margin: 0 -35px;
+	position: relative;
+}
+
+.old ul li:last-child a:after {border: none;}
+
+.old ul li:first-child a {-moz-border-radius: 5px 0 0 5px; border-radius: 5px 0 0 5px;}
+.old ul li:last-child a {-moz-border-radius: 0 5px 5px 0; border-radius: 0 5px 5px 0;}
+.new ul {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,.2);
+	box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+.new ul li {
+	float: left;
+	list-style: none;
+}
+.new ul li a:before {
+	border-left: 1px solid rgba(255,255,255,.1);	
+	content: "";
+	padding: 10px 35px;
+	margin: 0 -35px;
+	position: relative;
+}
+
+.new ul li a:after {
+	border-right: 1px solid rgba(255,255,255,.1);	
+	content: "";
+	padding: 10px 35px;
+	margin: 0 -35px;
+	position: relative;
+}
+
+.new ul li:last-child a:after {border: none;}
+
+.new ul li:first-child a {-moz-border-radius: 5px 0 0 5px; border-radius: 5px 0 0 5px;}
+.new ul li:last-child a {-moz-border-radius: 0 5px 5px 0; border-radius: 0 5px 5px 0;}
